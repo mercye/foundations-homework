@@ -158,6 +158,7 @@ print(playlist_search_result['playlists'].keys())
 
 # 20. Save the list of playlists into a variable called 'playlists'
 playlists = playlist_search_result['playlists']['items']
+print(playlists)
 print('#################', playlists[0])
 print(playlists[0].keys())
 
@@ -174,7 +175,7 @@ print(type(playlists[0]['tracks']))
 #dictionary
 #print([playlists[0]['tracks']['total']])
 
-# 24. Print the name and number of tracks for every playlist
+# 24. Print the name of playlist and number of tracks for every playlist
 print('###### NAME OF PLAYLIST AND NUMBER OF TRACKS')
 for playlist in playlists:
     print(playlist['name'], 'has', playlist['tracks']['total'], 'tracks.')
