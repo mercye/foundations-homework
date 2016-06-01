@@ -124,6 +124,16 @@ print(artist_search_result['artists']['items'][0].keys())
 for artist in artist_search_result['artists']['items']:
     print(artist['name'], 'has a popularity of', artist['popularity'])
 
+for artist in artist_search_result['artists']['items']:
+    if artist['name'] == 'Kendrick Lamar':
+        lamar_pop = artist['popularity']
+    elif artist['name'] == 'Anna Kendrick':
+        anna_pop = artist['popularity']
+
+ratio = lamar_pop/anna_pop
+
+print('Kendrick Lamar is', ratio, 'times more popular than Anna Kendricks' )
+
 ########
 #
 # Search results from Spotify for a playlist including the term "90s"
