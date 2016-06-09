@@ -1,4 +1,4 @@
-#Graded: 14/14 
+#Graded: 14/1 
 #EJ (Mercy) Emelike
 # May 30, 2016
 # Homework 3
