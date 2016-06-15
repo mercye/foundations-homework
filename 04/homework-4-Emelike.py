@@ -1,5 +1,5 @@
 ########
-#
+#Graded: 25/25
 # Homework 4
 #
 # MAKE SURE YOU ARE RUNNING THIS WITH PYTHON 3!
@@ -133,6 +133,7 @@ for artist in artist_search_result['artists']['items']:
 ratio = lamar_pop/anna_pop
 
 print('Kendrick Lamar is', ratio, 'times more popular than Anna Kendricks' )
+#TA-STEPHAN: Nice!
 
 ########
 #
