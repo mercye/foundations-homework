@@ -53,11 +53,11 @@ sbj = hour + 'AM Weather Forecast: ' + date
 
 key = 'key-5dd9bd308dc0ec27fc59315428752db9'
 sandbox = 'sandboxd3b7978e5d4c4a62afbb4f83e74cbbd4.mailgun.org'
-recipient = 'mee2127@gmail.com'
+recipient = 'mercy.emelike@gmail.com'
 
 request_url = 'https://api.mailgun.net/v2/{0}/messages'.format(sandbox)
 request = requests.post(request_url, auth=('api', key), data={
-    'from': 'darksky@forecast.io',
+    'from': 'Mailgun Sandbox <postmaster@sandboxd3b7978e5d4c4a62afbb4f83e74cbbd4.mailgun.org',
     'to': recipient,
     'subject': sbj,
     'text': msg
